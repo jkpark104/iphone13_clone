@@ -1,0 +1,29 @@
+.section__more {
+  width: 990px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.card {
+  width: 485px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  background-color: #0d3139;
+}
+.card__info {
+  padding: 80px 54px 20px;
+  color: #fff;
+  font-size: 24px;
+  word-break: keep-all;
+}
+.card__info .light-green {
+  color: #b8ff68;
+}
