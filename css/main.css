@@ -1,0 +1,27 @@
+.section__visual {
+  width: 100%;
+  max-width: 980px;
+  height: 100%;
+  background: beige;
+  display: flex;
+  margin: 0 auto;
+}
+.visual__image {
+  flex-basis: 50%;
+  max-width: 50%;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  background: tomato;
+  text-align: center;
+}
+
+.visual__content {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.longTest {
+  height: 3000px;
+  width: 100%;
+}
