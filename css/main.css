@@ -37,6 +37,11 @@
   background: slateblue;
   margin: 0 auto;
 }
+
+.qna-link {
+  display: flex;
+  padding: 14px 14px 5px;
+}
 .icon-side {
   display: inline-block;
   width: 35px;
