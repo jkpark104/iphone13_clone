@@ -16,6 +16,37 @@
   text-align: center;
 }
 
+.services {
+  padding: 40px 0 0;
+  display: flex;
+  /* width: 100%; */
+  width: 490px;
+}
+
+.service {
+  flex-basis: 50%;
+  flex: 1;
+  text-align: center;
+  margin: 14px 0 26px;
+  width: 100%;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  background: slateblue;
+  margin: 0 auto;
+}
+.icon-side {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: slateblue;
+  padding-right: 3rem;
+}
+.text {
+}
+
 .visual__content {
   flex-basis: 50%;
   max-width: 50%;
@@ -24,4 +55,5 @@
 .longTest {
   height: 3000px;
   width: 100%;
+  background: skyblue;
 }
